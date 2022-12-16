@@ -14,7 +14,7 @@ publish = false # This crate is useless alone, people should use the npm package
 crate-type = ["cdylib", "rlib"]
 
 [features]
-default = ["canvas", "console_error_panic_hook", "console_log", "webgl"]
+default = ["canvas", "console_error_panic_hook", "console_log", "webgl", "webgpu"]
 
 # core features
 avm_debug = ["ruffle_core/avm_debug"]
